@@ -1,0 +1,314 @@
+.whc_color:hover {
+    color: #fe6a00;
+}
+
+.whc_case {
+    width: 80%;
+    height: 40rem;
+    margin: auto;
+}
+
+
+/* .whc_case>div:first-child{
+} */
+
+.whc_case_show {
+    list-style: none;
+}
+
+.whc_case_show>li {
+    float: left;
+    padding-left: 2rem;
+    margin-top: -1rem;
+}
+
+.whc_case_show>li>a>div {
+    width: 100%;
+    height: 1.6rem;
+    margin-top: 0.6rem;
+}
+
+.whc_concea {
+    width: 100%;
+    height: 15rem;
+    left: 0rem;
+    top: 7rem;
+    background-color: white;
+    display: none;
+    position: absolute;
+    z-index: 99;
+}
+
+.whc_concea_i {
+    width: 100%;
+    height: 15rem;
+    left: 0rem;
+    top: 7rem;
+    position: absolute;
+    z-index: 99;
+}
+
+.whc_id:focus {
+    color: blue;
+}
+
+.whc_id:focus .whc_concea {
+    display: block;
+}
+
+.whc_id:focus .whc_xiahuaxian {
+    border-bottom: 2px solid black;
+}
+
+.whc_id>div>div>div>div>div>img {
+    width: 80%;
+    height: 90%;
+}
+
+.whc_id>div>div>div>div>div>span {
+    color: #000000;
+}
+
+.whc_concea_one_i {
+    border: 1px solid #00000024;
+}
+
+.whc_concea_one {
+    border: 1px solid #00000024;
+}
+
+.whc_concea_two {
+    border: 1px solid #00000024;
+}
+
+.whc_concea_three {
+    border: 1px solid #00000024;
+}
+
+.whc_concea_four {
+    border: 1px solid #00000024;
+}
+
+.whc_concea_one div:first-child {
+    margin-left: 1%;
+    width: 98%;
+    height: 80%;
+}
+
+.whc_concea_one div:last-child {
+    margin-left: 1%;
+    width: 98%;
+    height: 20%;
+}
+
+.whc_concea_one>div div:first-child {
+    width: 29%;
+    height: 90%;
+    float: left;
+}
+
+.whc_concea_one>div div:last-child {
+    width: 69%;
+    height: 90%;
+    float: left;
+}
+
+.whc_concea_two div:first-child {
+    margin-left: 1%;
+    width: 98%;
+    height: 80%;
+}
+
+.whc_concea_two div:last-child {
+    margin-left: 1%;
+    width: 98%;
+    height: 20%;
+}
+
+.whc_concea_two>div div:first-child {
+    width: 29%;
+    height: 90%;
+    float: left;
+}
+
+.whc_concea_two>div div:last-child {
+    width: 69%;
+    height: 90%;
+    float: left;
+}
+
+.whc_concea_three div:first-child {
+    margin-left: 1%;
+    width: 98%;
+    height: 80%;
+}
+
+.whc_concea_three div:last-child {
+    margin-left: 1%;
+    width: 98%;
+    height: 20%;
+}
+
+.whc_concea_three>div div:first-child {
+    width: 29%;
+    height: 90%;
+    float: left;
+}
+
+.whc_concea_three>div div:last-child {
+    width: 69%;
+    height: 90%;
+    float: left;
+}
+
+.whc_concea_four div:first-child {
+    margin-left: 1%;
+    width: 98%;
+    height: 80%;
+}
+
+.whc_concea_four div:last-child {
+    margin-left: 1%;
+    width: 98%;
+    height: 20%;
+}
+
+.whc_concea_four>div div:first-child {
+    width: 29%;
+    height: 90%;
+    float: left;
+}
+
+.whc_concea_four>div div:last-child {
+    width: 69%;
+    height: 90%;
+    float: left;
+}
+
+.whc_concea>div {
+    width: 49%;
+    height: 49%;
+    float: left;
+}
+
+.whc_case>div>span {
+    font-size: 1.6rem;
+}
+
+.whc_case>div>a {
+    padding-left: 2.125rem;
+}
+
+.whc_two {
+    width: 95rem;
+    margin-left: -10rem;
+    height: 20rem;
+    background-color: #0000000d;
+}
+
+.whc_safety {
+    width: 80%;
+    height: 20rem;
+    margin-left: 10rem;
+}
+
+.whc_data {
+    width: 100%;
+    height: 50%;
+    margin-top: 16rem;
+}
+
+.whc_data>div>span {
+    font-size: 1.4rem;
+    line-height: 200%;
+}
+
+.whc_data>div>.iconfont {
+    color: #fe6a00;
+    line-height: 300%;
+}
+
+.whc_data>div>a>span {
+    font-size: 3rem;
+    color: black;
+}
+
+.whc_data>div>a>p {
+    font-size: 0.8rem;
+}
+
+.whc_data>div>a>span>u {
+    color: #fe6a00;
+}
+
+.whc_data>div {
+    margin-top: 2rem;
+    width: 20%;
+    float: left;
+}
+
+.whc_icon {
+    width: 100%;
+    height: 50%;
+}
+
+.whc_icon>ul {
+    float: left;
+    list-style: none;
+}
+
+.whc_icon>ul>li {
+    width: 11%;
+    float: left;
+    text-align: center;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.whc_icon>div>a>span {
+    font-size: 0.85rem;
+}
+
+.whc_icon>ul>li>div>a>img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.whc_xiahuaxian {
+    color: #000000;
+    border-bottom: none;
+    display: inline-block;
+    padding-bottom: 7px;
+    margin-top: 0.4rem;
+}
+
+hr {
+    width: 100%;
+}
+
+button {
+    background-color: white;
+    border: 0.01rem solid #fe6a00;
+    color: #fe6a00;
+    border-radius: 5px;
+}
+
+.whc_right {
+    float: right;
+    right: 0;
+    color: darkgray;
+    font-size: 0.8rem;
+}
+
+.whc_nav {
+    width: 100%;
+    height: 5rem;
+    position: relative;
+}
+
+.whc_initial {
+    width: 100%;
+    height: 20rem;
+    background-color: #FE6A00;
+    z-index: 0;
+}

@@ -1,0 +1,452 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.Z_shang {
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Z_shangnei {
+    width: 1200px;
+    height: 30px;
+    margin: auto;
+}
+
+.Z_shangnei span {
+    color: #373d41;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.Z_solve {
+    width: 100%;
+    height: 600px;
+}
+
+.Z_solve_nei {
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+    margin-top: 19px;
+}
+
+.Z_solve_nei_zuo {
+    width: 300px;
+    height: 600px;
+    background-image: url(../img/c图一.jpg);
+    background-size: 300px 600px;
+    display: inline-block;
+}
+
+.Z_solve_nei_zuo_shang {
+    width: 198px;
+    height: 56px;
+    margin-left: -5px;
+    padding: 28px;
+}
+
+.Z_solve_nei_zuo_shang p {
+    width: 240px !important;
+    color: #fff !important;
+    font-size: 18px !important;
+    height: 28px !important;
+    line-height: 28px !important;
+    font-weight: 550;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.Z_solve_nei_zuo_zhong {
+    width: 240px;
+    height: 48px;
+}
+
+.Z_solve_nei_zuo_zhong p {
+    display: inline-block !important;
+    font-size: 14px !important;
+    color: #fff !important;
+    line-height: 24px !important;
+    padding: 33px;
+    margin-top: -51px;
+}
+
+.Z_solve_nei_zuo_xia {
+    width: 128px;
+    height: 36px;
+}
+
+.Z_solve_nei_zuo_xia_anniu {
+    display: block;
+    border: 1px solid #fff;
+    width: 128px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 33px;
+    text-decoration: none;
+}
+
+.Z_solve_nei_zuo_xia_anniu:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.Z_solve_nei_you {
+    width: 900px;
+    height: 600px;
+    background-color: #7FFFD4;
+    float: right;
+    font-size: 0;
+}
+
+.Z_solve_nei_you_li {
+    width: 299px;
+    height: 199px;
+    background-color: #fff;
+    display: inline-block;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    float: left;
+    position: relative;
+}
+
+.Z_card {
+    width: 299px;
+    height: 40px;
+    margin-left: 20px;
+    font-size: 10px;
+}
+
+.Z_card span {
+    display: inline-block;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    height: 20px;
+    line-height: 16px;
+    padding: 1px 6px;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    letter-spacing: .33px;
+    margin-top: 18px;
+    margin-left: 4px;
+    display: inline-block;
+}
+
+.Z-card-title {
+    margin-left: 20px;
+    font-size: 14px;
+    color: #181818;
+    letter-spacing: .65px;
+    line-height: 30px;
+    height: 30px;
+    margin-top: 13px;
+    margin-bottom: 1px;
+}
+
+.Z_card_des {
+    margin-left: 20px;
+    line-height: 18px;
+    font-size: 12px;
+    white-space: pre-line;
+    color: #999;
+    letter-spacing: .56px;
+    margin-top: -18px;
+}
+
+.Z-card-money {
+    width: 299px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 16px;
+}
+
+.Z-money-data {
+    font-size: 20px;
+    color: #ff6a00;
+}
+
+.Z-money-symbol {
+    font-size: 14px;
+}
+
+.Z-money-unit {
+    font-size: 14px;
+    color: #181818;
+}
+
+.Z-card-detail {
+    width: 300px;
+    height: 60px;
+    background-color: #ff6a00;
+    position: absolute;
+    margin-top: -75px;
+    display: none;
+}
+
+.Z-card-detail-text-0 {
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: .65px;
+    height: 60px;
+    width: 50%;
+    line-height: 60px;
+    background-color: #fff;
+    border: 1px solid #ff6a00;
+    box-sizing: border-box;
+    color: #ff6a00;
+}
+
+.Z-card-detail-text-1 {
+    text-decoration: none;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: .65px;
+    width: 50%;
+    line-height: 60px;
+    transition: all .3s;
+}
+
+.Z_solve_nei_you_li:hover {
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .1);
+}
+
+.Z_solve_nei_you_li:hover .Z-card-detail {
+    display: block;
+}
+
+
+/* 下栏 */
+
+.Z_solv {
+    width: 100%;
+    height: 526px;
+    padding-bottom: 30px;
+}
+
+.Z_solv_nei {
+    width: 1200px;
+    height: 526px;
+    margin: auto;
+    margin-top: 19px;
+}
+
+.Z_solv_nei_xia {
+    width: 300px;
+    height: 526px;
+    background-image: url(../img/c图二.jpg);
+    background-size: 300px 526px;
+    display: inline-block;
+}
+
+.Z_solv_nei_zuo_shang {
+    width: 198px;
+    height: 56px;
+    margin-left: 24px;
+    margin-top: 20px;
+}
+
+.Z_solv_nei_zuo_shang p {
+    width: 240px !important;
+    color: #fff !important;
+    font-size: 18px !important;
+    height: 28px !important;
+    line-height: 28px !important;
+    font-weight: 550;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.Z_solv_nei_zuo_zhong {
+    width: 240px;
+    height: 48px;
+}
+
+.Z_solv_nei_zuo_zhong p {
+    display: inline-block !important;
+    font-size: 14px !important;
+    color: #fff !important;
+    line-height: 24px !important;
+    padding: 30px;
+    margin-top: -55px;
+    margin-left: 2px;
+}
+
+.Z_solv_nei_zuo_xia {
+    width: 128px;
+    height: 36px;
+}
+
+.Z_solv_nei_zuo_xia_anniu {
+    display: block;
+    border: 1px solid #fff;
+    width: 128px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 33px;
+    text-decoration: none;
+}
+
+.Z-tags-item:hover span {
+    background-color: #ededed;
+}
+
+.Z_solv_nei_a {
+    width: 900px;
+    height: 526px;
+    float: right;
+    font-size: 0;
+}
+
+.Z_solv_nei_you_li {
+    width: 299px;
+    height: 262px;
+    background-color: #fff;
+    display: inline-block;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    float: left;
+    position: relative;
+}
+
+.Z-head {
+    width: 259px;
+    height: 90px;
+    padding: 20px;
+}
+
+.Z-head-head {
+    height: 34px;
+    width: 259px;
+}
+
+.Z-tags-item {
+    font-size: 12px;
+    color: #999;
+    line-height: 20px;
+}
+
+.Z-tags-item span {
+    border: 1px solid #F9F9F9;
+    display: inline-block;
+    background-color: #F9F9F9;
+    border-radius: 6%;
+    text-decoration: none;
+    padding: 0px 7.5px;
+}
+
+.Z-head-body {
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.Z-head-foot {
+    color: rgb(153, 153, 153);
+    height: 40px;
+    font-size: 11px;
+}
+
+.Z-head-b {
+    width: 299px;
+    height: 74px;
+}
+
+.Z-head-b-wrap-container {
+    width: 255px;
+    height: 74px;
+    margin: auto;
+}
+
+.Z-feature {
+    font-size: 12px;
+}
+
+.Z-feature i {
+    color: #ff6700;
+}
+
+.Z-head-leg {
+    width: 299px;
+    height: 58px;
+}
+
+.Z-element-container {
+    margin: auto;
+    padding: 0px 20px;
+    padding-top: 8px;
+}
+
+.Z-homepage-price {
+    background-color: #fff;
+    color: #181818;
+    box-sizing: border-box;
+    text-align: left;
+    padding-top: 4px;
+    padding-bottom: 20px;
+}
+
+.Z-price-emphasis {
+    color: #ff6700;
+}
+
+.Z-price-symbol {
+    font-size: 14px;
+}
+
+.Z-price-integer {
+    font-size: 20px;
+}
+
+.Z-price-decimal {
+    font-size: 13px;
+}
+
+.Z-price-unit {
+    font-size: 13px;
+    color: #181818;
+    margin-left: 5px;
+}
+
+.Z-head-f {
+    width: 299px;
+    height: 58px;
+    background-color: #ff6700;
+    bottom: 0px;
+    font-size: 14px;
+    line-height: 58px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    display: none;
+}
+
+.Z_solv_nei_you_li:hover {
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .1);
+}
+
+.Z_solv_nei_zuo_xia_anniu:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.Z_solv_nei_you_li:hover .Z-head-f {
+    display: block;
+}
