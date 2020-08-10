@@ -21,7 +21,7 @@
         margin-left: auto;
         margin-right: auto;
         position: relative;
-        top: 20px;
+        top: 10px;
     }
     
     .njr1_top_box img:first-child {
@@ -439,7 +439,7 @@
     
     .njr_img_right {
         position: absolute;
-        width: 350px;
+        width: 360px;
         height: 130px;
         /* background-color: thistle; */
         margin-left: 20px;
@@ -744,6 +744,10 @@
         width: 205px;
         /* background-color: cornflowerblue; */
         float: left;
+    }
+    
+    .njr1_bottom_service span {
+        color: white;
     }
     
     .njr1_bottom_service a {
