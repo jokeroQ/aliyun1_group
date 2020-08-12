@@ -1,0 +1,69 @@
+body {
+    font-size: 0.6rem;
+    padding: 0;
+    margin: 0;
+}
+
+.m_njr1_null {
+    display: flex;
+    height: 0.5rem;
+}
+
+.m_njr1_main {
+    height: 12rem;
+    width: 100%;
+}
+
+.m_njr1_main ul {
+    margin: 0;
+}
+
+.m_njr1_main li {
+    height: 1.18rem;
+    display: flex;
+    position: relative;
+}
+
+.m_njr1_logo {
+    width: 0.35rem;
+    height: 0.41rem;
+    position: absolute;
+    left: 0;
+}
+
+.m_njr1_logo img {
+    margin: .45rem 0 .35rem;
+    width: .35rem;
+    margin-left: 0.4rem;
+}
+
+.m_njr1_right {
+    width: 5.61rem;
+    height: 0.72rem;
+    position: absolute;
+    top: 0.1rem;
+    right: 0rem;
+    padding-top: .15rem;
+    padding-bottom: .2rem;
+    padding-right: .64rem;
+    border-bottom: .01333333rem solid #D7D8D9;
+}
+
+.m_njr1_right p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.m_njr1_right p:first-of-type {
+    font-size: .28rem;
+    color: #373D41;
+    letter-spacing: 0;
+    margin-bottom: .06666667rem;
+}
+
+.m_njr1_right p:last-of-type {
+    font-family: PingFangSC-Regular;
+    font-size: .25rem;
+    color: #999;
+    letter-spacing: 0;
+}
