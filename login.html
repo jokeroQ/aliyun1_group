@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="UTF-8">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>阿里云登录 - 欢迎登录阿里云，安全稳定的云计算服务平台</title>
@@ -48,7 +48,7 @@
             <div class="login_right">
                 <div class="login_type">
                     <div class="login_type_item">
-                        <span class="iconfont">&#xe501;</span>
+                        <span class="iconfont type_span">&#xe501;</span>
                         <div>扫码登录</div>
                     </div>
                     <div class="login_type_item">
@@ -131,6 +131,50 @@
             </div>
         </div>
     </div>
+    <div class="login_footer">
+        <div class="footer">
+            <div class="footer_about">
+                <a href="javascript:void(0)">关于我们</a>
+                <a href="javascript:void(0)">法律声明及隐私权政策</a>
+                <a href="javascript:void(0)">廉正举报</a>
+                <a href="javascript:void(0)">联系我们</a>
+                <a href="javascript:void(0)">加入阿里云</a>
+            </div>
+            <div class="footer_friend">
+                <a href="javascript:void(0)">阿里巴巴集团</a>
+                <a href="javascript:void(0)">淘宝网</a>
+                <a href="javascript:void(0)">天猫</a>
+                <a href="javascript:void(0)">聚划算</a>
+                <a href="javascript:void(0)">全球速卖通</a>
+                <a href="javascript:void(0)">阿里巴巴国际交易市场</a>
+                <a href="javascript:void(0)">1688</a>
+                <a href="javascript:void(0)">阿里妈妈</a>
+                <a href="javascript:void(0)">飞猪</a>
+                <a href="javascript:void(0)">阿里云计算</a>
+                <a href="javascript:void(0)">AliOS</a>
+                <a href="javascript:void(0)">阿里通信</a>
+                <a href="javascript:void(0)">万网</a>
+                <a href="javascript:void(0)">高德</a>
+                <a href="javascript:void(0)">UC</a>
+                <a href="javascript:void(0)">友盟</a>
+                <a href="javascript:void(0)">虾米</a>
+                <a href="javascript:void(0)">优酷</a>
+                <a href="javascript:void(0)">钉钉</a>
+                <a href="javascript:void(0)">支付宝</a>
+                <a href="javascript:void(0)">达摩院</a>
+                <div class="footer_text">© 2009-2020 Aliyun.com 版权所有 ICP证：浙B2-20080101</div>
+            </div>
+            <div class="footer_report">
+                <a href="javascript:void(0)">
+                    <img src="img/TB1GxwdSXXXXXa.aXXXXXXXXXXX-65-70.gif">
+                </a>
+                <a href="javascript:void(0)">
+                    <img src="img/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png">
+                    <span>浙公网安备 33010602009975号</span>
+                </a>
+            </div>
+        </div>
+    </div>
 
     <script>
         let login_type = document.getElementsByClassName("login_type_item");
@@ -138,12 +182,16 @@
         for(let i = 0; i< login_type.length; i++){
             login_type[i].onclick = function(){
                 if(rudg_dis){
+                    this.children[0].style.color = "#FF6a00";
+                    this.previousElementSibling.children[0].style.color = "#73777a";
                     this.previousElementSibling.style.borderBottom = "1px solid #d8d8d8";
                     this.parentNode.parentNode.children[1].style.display = "none";
                     this.style.borderBottom = "3px solid #ff6a00";
                     this.parentNode.parentNode.children[2].style.display = "block";
                     rudg_dis = false;
                 }else{
+                    this.children[0].style.color = "#FF6a00";
+                    this.nextElementSibling.children[0].style.color = "#73777a";
                     this.nextElementSibling.style.borderBottom = "1px solid #d8d8d8";
                     this.parentNode.parentNode.children[1].style.display = "block";
                     this.style.borderBottom = "3px solid #ff6a00";
