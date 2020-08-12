@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>阿里云 - 上云就上阿里云 - 触屏版</title>
     <link rel="stylesheet" href="css/m.aliyun.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
     <script src="js/m.aliyun.js"></script>
     <link rel="stylesheet" href="css/iconfont.css">
     <link rel="stylesheet" href="css/swiper.min.css">
@@ -20,8 +21,35 @@
         </div>
         <div class="nav_right">
             <img src="img/m.aliyun-top1.jpg" alt="">
-            <span class="icon iconfont icon-user"></span>
-            <span class="icon iconfont icon-more"></span>
+            <span class="icon user icon-user" id="m_user" onclick="user()"></span>
+
+            <span class="icon user icon-more"></span>
+        </div>
+        <div class="m_login">
+            <div class="m_submit">
+                <a href="javascript:void(0)">注册有礼</a>
+                <a href="javascript:void(0)">登录</a>
+            </div>
+            <ul>
+                <li><a href="javascript:void(0)">我的订单
+            <span class="icon iconfont icon-arrow"></span>
+                </a></li>
+                <li><a href="javascript:void(0)">我的卡券
+                    <span class="icon iconfont icon-arrow"></span>
+                        </a></li>
+                <li><a href="javascript:void(0)">我的提货券
+                            <span class="icon iconfont icon-arrow"></span>
+                                </a></li>
+                <li><a href="javascript:void(0)">我的积分
+                                    <span class="icon iconfont icon-arrow"></span>
+                                        </a></li>
+                <li><a href="javascript:void(0)">推荐奖励
+                                            <span class="icon iconfont icon-arrow"></span>
+                                                </a></li>
+                <li><a href="javascript:void(0)">管理控制台
+                                                    <span class="icon iconfont icon-arrow"></span>
+                                                        </a></li>
+            </ul>
         </div>
     </div>
     <div class="swiper-container">
@@ -65,7 +93,7 @@
     </div>
     <div class="tech_top">
         <a href="javascript:void(0)">阿里云技术课堂
-            <span class="icon iconfont icon-zuojiantou"></span>
+            <span class="icon jiantou icon-zuojiantou"></span>
         </a>
         <p>云计算入门，进阶；在线与阿里，蚂蚁金服技术大咖学习云计算</p>
     </div>
@@ -75,7 +103,7 @@
     <div class="tech_top">
         <a href="javascript:void(0)">
             满足您各种使用场景       
-            <span class="icon iconfont icon-zuojiantou"></span>
+            <span class="icon jiantou icon-zuojiantou"></span>
         </a>
         <p>您在业务中遇到的各种场景
             <br> 阿里云都致力为您提供最适合的解决方案
@@ -212,7 +240,7 @@
         </div>
         <div class="tech_top">
             <a href="javascript:void(0)">人工智能
-                <span class="icon iconfont icon-zuojiantou"></span>
+                <span class="icon jiantou icon-zuojiantou"></span>
             </a>
             <p>AI学习与体验 | AI应用场景 | AI计算落地</p>
         </div>
@@ -223,7 +251,7 @@
         </div>
         <div class="tech_other">
             <a href="javascript:void(0)">高品质的软件与服务					
-                <span class="icon iconfont icon-zuojiantou"></span>
+                <span class="icon jiantou icon-zuojiantou"></span>
             </a>
             <p>开发者工具、建站、API、企业应用...
                 <br> 可降低您的实施成本，让您的业务如虎添翼
@@ -253,7 +281,7 @@
         </div>
         <div class="tech_top">
             <a href="javascript:void(0)">产品技术在线课堂
-                <span class="icon iconfont icon-zuojiantou"></span>
+                <span class="icon jiantou icon-zuojiantou"></span>
             </a>
             <p>产品技术系列在线课程，助你快速学习云产品！</p>
         </div>

@@ -265,9 +265,8 @@
     content: "\e650";
 }
 /* 用户 更多 */
-
 @font-face {
-    font-family: "iconfont";
+    font-family: "user";
     src: url('iconfont.eot?t=1596890029328');
     /* IE9 */
     src: url('iconfont.eot?t=1596890029328#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -276,8 +275,8 @@
     /* iOS 4.1- */
 }
 
-.iconfont {
-    font-family: "iconfont" !important;
+.user {
+    font-family: "user" !important;
     font-size: 16px;
     font-style: normal;
     -webkit-font-smoothing: antialiased;
@@ -291,12 +290,12 @@
 .icon-user:before {
     content: "\e501";
 }
-
+/* 右箭头 */
 
 /* 右箭头 */
 
 @font-face {
-    font-family: "iconfont";
+    font-family: "jiantou";
     src: url('iconfont.eot?t=1596899317426');
     /* IE9 */
     src: url('iconfont.eot?t=1596899317426#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -305,8 +304,8 @@
     /* iOS 4.1- */
 }
 
-.iconfont {
-    font-family: "iconfont" !important;
+.jiantou {
+    font-family: "jiantou" !important;
     font-size: 16px;
     font-style: normal;
     -webkit-font-smoothing: antialiased;
