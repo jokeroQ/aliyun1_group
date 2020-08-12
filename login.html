@@ -56,7 +56,53 @@
                         <div>账号密码登录</div>
                     </div>
                 </div>
-
+                <div class="alipay_channel">
+                    <div>
+                        <div class="alipay_text_wrap">
+                            <div class="alipay_text">扫码后点击“确认授权”，即可完成账号绑定及登录</div>
+                            <div class="alipay_text">支持扫码登录的APP:</div>
+                            <div class="icon_wrap">
+                                <span class="iconfont">&#xe868;</span>
+                                <span>支付宝APP</span>
+                                <span class="iconfont">&#xe618;</span>
+                                <span>钉钉APP</span>
+                            </div>
+                        </div>
+                        <img src="img/creatQrCode.png">
+                    </div>
+                    <a href="javascript:void(0)">免费注册</a>
+                </div>
+                <div class="account_login">
+                    <div class="login_container">
+                        <div class="corner_icon_view">
+                            <div class="master_login_title">密码登录</div>
+                            <span class="iconfont">&#xe61a;</span>
+                            <div class="login_tip">
+                                <div></div>
+                                <span>扫码登录</span>
+                            </div>
+                            <div></div>
+                        </div>
+                        <div class="login_content">
+                            <form class="login_form">
+                                <div class="fm_field">
+                                    <input type="text" class="fm_text" placeholder="邮箱/会员名/8位ID" tabindex="1" autocapitalize="off">
+                                </div>
+                                <div class="fm_field">
+                                    <input type="password" class="fm_text" placeholder="请输入登录密码">
+                                </div>
+                                <div class="fm_btn">
+                                    <button class="login_btn">登录</button>
+                                </div>
+                                <div class="login_links">
+                                    <a href="javascript:void(0)">忘记密码</a>
+                                    <a href="javascript:void(0)">忘记会员名</a>
+                                    <a href="javascript:void(0)">免费注册</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
                 <div class="third_login_type">
                     <div class="third_party_login">
                         <span>其他登录方式</span>
@@ -85,5 +131,27 @@
             </div>
         </div>
     </div>
+
+    <script>
+        let login_type = document.getElementsByClassName("login_type_item");
+        let rudg_dis = true;
+        for(let i = 0; i< login_type.length; i++){
+            login_type[i].onclick = function(){
+                if(rudg_dis){
+                    this.previousElementSibling.style.borderBottom = "1px solid #d8d8d8";
+                    this.parentNode.parentNode.children[1].style.display = "none";
+                    this.style.borderBottom = "3px solid #ff6a00";
+                    this.parentNode.parentNode.children[2].style.display = "block";
+                    rudg_dis = false;
+                }else{
+                    this.nextElementSibling.style.borderBottom = "1px solid #d8d8d8";
+                    this.parentNode.parentNode.children[1].style.display = "block";
+                    this.style.borderBottom = "3px solid #ff6a00";
+                    this.parentNode.parentNode.children[2].style.display = "none";
+                    rudg_dis = true;
+                }
+            }
+        }
+    </script>
 </body>
 </html>
