@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Microsoft YaHei';
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: #383D41;
+}
+.header_title{
+    font-size: 15px;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+.logo{
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.logo a{
+    width: 80px;
+    height: 50px;
+    display: block;
+    background-image: url(../img/TB1gzGpOXXXXXX6XXXXXXXXXXXX-172-100.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-indent: -999em;
+    overflow: hidden;
+}
+
+.alibaba_login{
+    width: 644px;
+    height: 238px;
+    margin: 20px auto 0;
+}
+.fm_field{
+    margin-bottom: 18px;
+}
+.fm_label{
+    font-size: 12px;
+    padding: 5px 0;
+    color: #222;
+    display: block;
+}
+.fm_text{
+    width: 632px;
+    margin-top: 5px;
+    font-size: 14px;
+    padding: 8px 5px;
+    line-height: 16px;
+    border-color: #d7d8d9;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.fm_text:hover{
+    border-color: #00c1de;
+}
+.fm_text:focus{
+    border-color: #00c1de;
+}
+.login_blocks{
+    float: right;
+}
+.login_blocks > a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #00c1de;
+}
+.fm_btn{
+    width: 100%;
+    margin-top: 20px;
+}
+.fm_button{
+    width: 100%;
+    height: 36px;
+    color: #ffffff;
+    background-color: #00c1de;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    padding: 0 30px 1px;
+    cursor: pointer;
+}
+.fm_blocks{
+    margin: 8px 0;
+    text-align: right;
+}
+.fm_blocks a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #00c1de;
+}
+
+.sns_register{
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    text-align: center;
+}
+.sns_register_title{
+    display: inline-block;
+    font-size: 14px;
+    color: #73777a;
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    margin-left: -55px;
+    width: 110px;
+    background-color: #fff;
+    line-height: 20px;
+}
+.thirdpart-register{
+    width: 100%;
+    border-top: 1px solid #ebecec;
+    padding-top: 40px;
+    display: inline-block;
+}
+.thirdpart-register_icon{
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.icon_taobao{
+    background-image: url(../img/taobao.png);
+}
+.icon_cbu{
+    background-image: url(../img/cbu.png);
+}
+.icon_weibo{
+    background-image: url(../img/weibo.svg);
+}
+.icon_alipay{
+    background-image: url(../img/alipay.svg);
+}
+.icon_dingtalk{
+    background-image: url(../img/dingtalk.svg);
+}
+.icon_umeng{
+    background-image: url(../img/umeng.png);
+}
