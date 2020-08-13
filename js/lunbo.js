@@ -4,10 +4,10 @@ window.addEventListener('load', function() {
             el: '.swiper-pagination',
             clickable: true,
             clickableClass: 'my-pagination-clickable',
-            type: 'progressbar',
-            renderProgressbar: function(progressbarFillClass) {
-                return '<span class="' + progressbarFillClass + '"></span>';
-            }
+            // type: 'progressbar',
+            // renderProgressbar: function(progressbarFillClass) {
+            //     return '<span class="' + progressbarFillClass + '"></span>';
+            // }
         },
         autoplay: true,
         loop: true,

@@ -75,7 +75,7 @@ body {
 }
 
 .list_item {
-    display: inline-flex;
+    /* display: inline-flex; */
     flex: 1;
 }
 
@@ -462,14 +462,21 @@ a {
     letter-spacing: 0;
 }
 
-ul {
+.hot ul {
     margin: 0;
     padding: 0;
     list-style: none;
     margin-block-end: 0;
 }
 
-li {
+.switch ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-block-end: 0;
+}
+
+.switch li {
     font-size: 0.14rem;
     line-height: 0.29rem;
     color: #D7D8D9;
@@ -478,6 +485,9 @@ li {
 .hot li {
     float: left;
     margin-right: .2rem;
+    font-size: 0.14rem;
+    line-height: 0.29rem;
+    color: #D7D8D9;
 }
 
 .footline {
