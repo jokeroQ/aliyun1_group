@@ -27,22 +27,19 @@ body {
 .m_njr1_logo {
     width: 0.35rem;
     height: 0.41rem;
-    position: absolute;
-    left: 0;
+    display: inline-block;
 }
 
 .m_njr1_logo img {
     margin: .45rem 0 .35rem;
     width: .35rem;
-    margin-left: 0.4rem;
 }
 
 .m_njr1_right {
-    width: 5.61rem;
+    width: 100%;
     height: 0.72rem;
-    position: absolute;
     top: 0.1rem;
-    right: 0rem;
+    margin-left: 0.5rem;
     padding-top: .15rem;
     padding-bottom: .2rem;
     padding-right: .64rem;
