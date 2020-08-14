@@ -9,6 +9,11 @@ body {
     height: 0.5rem;
 }
 
+.m_njr1_null a {
+    height: 0.5rem;
+    flex: 1;
+}
+
 .m_njr1_main {
     height: 12rem;
     width: 100%;
