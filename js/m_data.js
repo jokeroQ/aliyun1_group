@@ -48,6 +48,9 @@ window.onload = function(){
     timer = setInterval(function(){
         next_img();
     }, 2000);
+    let time = setInterval(function(){
+        next();
+    }, 3000);
 }
 function showCurrent(){
     for(let i = 0 ;i < cube.length ; i++){
@@ -83,4 +86,28 @@ for(let i =0 ;i < onclick_a.length ; i++){
         product_name[i].style.color = "#00c1de";
         product_content[i].style.display = "block";
     }
+}
+
+let slick_list = document.querySelector(".slick_list");
+let slick_dots = document.querySelectorAll(".slick_dots li");
+let num = 0;
+function next(){
+    let slick_left;
+    if(slick_list.style.left === "-28.8rem"){
+        slick_left = -14.4;
+    }else {
+        slick_left = parseFloat(slick_list.style.left) - 7.2;
+    }
+    slick_list.style.left = slick_left + "rem";
+    num ++;
+    if(num > 2){
+        num = 0;
+    }
+    showDots();
+}
+function showDots(){
+    for(let i = 0 ;i < slick_dots.length ; i++){
+        slick_dots[i].className = "";
+    }
+    slick_dots[num].className = "first_slick_dot";
 }
