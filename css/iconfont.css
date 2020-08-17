@@ -687,10 +687,10 @@
   
   .iconfont {
     font-family: "iconfont" !important;
-    font-size: 45px;
+    //font-size: 45px;
     font-style: normal;
-    margin-top: 16px;
-    color: rgb(216, 75, 19);
+    //margin-top: 16px;
+   // color: rgb(216, 75, 19);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
