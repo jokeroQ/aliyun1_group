@@ -63,13 +63,16 @@
     }
     
     .m_more {
-        width: 6.6rem;
+        /* width: 6.6rem; */
+        transition: width 0.3s;
+        width: 0;
+        overflow: hidden;
         height: 100%;
         background-color: #2e2e2e;
         position: absolute;
         z-index: 99;
         margin-left: 0.6rem;
-        display: none;
+        /* display: none; */
     }
     
     .m_more_top {
@@ -91,13 +94,14 @@
         position: absolute;
     }
     
-    .m_more_list span:last-of-type {
+    .m_more_list span:nth-of-type(2) {
         right: 0.2rem;
     }
     
     .m_hotproduct {
         display: none;
         position: relative;
+        background-color: #3b3b3b;
     }
     
     .m_hotproduct table {
@@ -118,8 +122,8 @@
         width: 100%;
         position: relative;
         font-size: 0.14rem;
-        color: #9b9ea0;
         display: block;
+        color: #9b9ea0;
     }
     
     .m_morebottom {
